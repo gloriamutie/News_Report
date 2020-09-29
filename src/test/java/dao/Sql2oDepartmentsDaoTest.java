@@ -25,11 +25,8 @@ public class Sql2oDepartmentsDaoTest {
     public void setUp() throws Exception {
 //change to your database username and password to run locally.......................
         String connectionString = "jdbc:postgresql://localhost:5432/organisational_news_portal_test";
-<<<<<<< HEAD
         Sql2o sql2o = new Sql2o(connectionString, "gloria", "gloria@2018");
-=======
-        Sql2o sql2o = new Sql2o(connectionString, "gloriamutie", "gloria@2018");
->>>>>>> 788f971324a2ca69223d30c25549b27c70c394cf
+      
 
 
         sql2oDepartmentsDao=new Sql2oDepartmentsDao(sql2o);

@@ -26,10 +26,7 @@ public class News {
         this.news_type=TYPE_OF_NEWS;
         this.department_id=0;
     }
-<<<<<<< HEAD
-=======
-    
->>>>>>> 788f971324a2ca69223d30c25549b27c70c394cf
+
     public News(String title, String description,int department_id, int user_id){
         this.title = title;
         this.description = description;

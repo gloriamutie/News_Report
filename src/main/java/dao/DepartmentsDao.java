@@ -6,10 +6,7 @@ import models.Users;
 
 import java.util.List;
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 788f971324a2ca69223d30c25549b27c70c394cf
 public interface DepartmentsDao {
 
     //create
