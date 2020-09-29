@@ -81,6 +81,7 @@
                     </descriptorRefs>
                     <archive>
                         <!-- Change this to YOUR main class name if different. Usually, it will be App. -->
+<!--                        postgresql-horizontal-23523-->
                         <manifest>
                             <mainClass>App</mainClass>
                         </manifest>
@@ -103,5 +104,5 @@
         </plugins>
     </build>
 
-    
+
 </project>

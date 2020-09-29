@@ -3,10 +3,10 @@ dao/DepartmentsDao.class
 models/Users.class
 models/News.class
 dao/UsersDao.class
-models/Departments.class
 dao/Sql2oUsersDao.class
+models/Departments.class
 exceptions/ApiException.class
 dao/Sql2oDepartmentsDao.class
-App.class
 dao/Sql2oNewsDao.class
+App.class
 dao/NewsDao.class

@@ -7,19 +7,8 @@ Organisational News Portal is a REST API for querying and retrieving scoped news
 
 ## AUTHOR
 ```bash
-MAUREEN CHEPKIRUI
+Gloria MUtie
 ```
-## PRODUCTION DATE
-````bash
-23RD JULY 2020
-````
-## LINK TO OTHER PROJECTS
-
-[GitSearch](https://github.com/Maureenchepkirui/GitSearch) GitSearch-A website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
-
-[QuotesApp](https://github.com/Maureenchepkirui/Quotes)   -An application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational.
-
-[PizzaApp](https://github.com/Maureenchepkirui/IP4PIZZA) -A Web application that allows customers to select the type of pizza the need and also request delivery if need be.
 
 ## TECHNOLOGIES
 
@@ -27,8 +16,7 @@ MAUREEN CHEPKIRUI
 
 ## GETTING STARTED
 ```
-git clone https://github.com/Maureenchepkirui/RestAPI.git
-cd wildlife-tracker
+git clone https://github.com/gloriamutie/News_Report.git
 open in intellij or your preferred IDE and gradle run
 ```
 ## SQL
@@ -49,7 +37,7 @@ postgresql is installed
 ````
 ## RUNNING LOCALLY
 ````
-Change databse creadentials to your credentials in the App.java and in the tests
+Change database creadentials to your credentials in the App.java and in the tests
 ````
 ## API DOCUMENTATION
 
@@ -102,11 +90,7 @@ Change databse creadentials to your credentials in the App.java and in the tests
     "user_id":1 \
    }
 
-## CONTACT DETAILS
-````
-For clarification reach out to me on maureenchepkirui005@gmail.com
-````
 
-## LICENCE
+## LICENSE
 
 This project is licensed under the MIT Open Source license Copyright (c) 2020. LICENCE
