@@ -35,13 +35,6 @@ user_id INT,
 department_id INT
 );
 
-
-
-
-
-<<<<<<< HEAD
 CREATE DATABASE organisational_news_portal_test WITH TEMPLATE organisational_news_portal;
-=======
 --CREATE DATABASE organisational_news_portal_test WITH TEMPLATE organisational_news_portal;
->>>>>>> 788f971324a2ca69223d30c25549b27c70c394cf
 

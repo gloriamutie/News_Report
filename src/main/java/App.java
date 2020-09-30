@@ -33,9 +33,12 @@ public class App {
         Connection conn;
         Gson gson = new Gson();
         staticFileLocation("/public");
+        
+        String connectionString = "jdbc:postgresql://localhost:5432/organisational_news_portal"; //connect to newsportal, not newsportal_test!
+        Sql2o sql2o = new Sql2o(connectionString, "gloria", "gloria@2018");  //Ubuntu Sql2o sql2o = new Sql2o(connectionString, "user", "1234");
 
-        String connectionString = "jdbc:postgresql://ec2-54-224-124-241.compute-1.amazonaws.com:5432/df4h99m09rlsb0";
-        Sql2o sql2o = new Sql2o(connectionString, "zsdhwoskammyud", "d44213a02e7dfcf7acd2f9b59912d17f072016e73adebfee70cef45d3c136840");
+//        String connectionString = "jdbc:postgresql://ec2-54-224-124-241.compute-1.amazonaws.com:5432/df4h99m09rlsb0";
+//        Sql2o sql2o = new Sql2o(connectionString, "zsdhwoskammyud", "d44213a02e7dfcf7acd2f9b59912d17f072016e73adebfee70cef45d3c136840");
         sql2oDepartmentsDao=new Sql2oDepartmentsDao(sql2o);
         sql2oNewsDao=new Sql2oNewsDao(sql2o);
         sql2oUsersDao=new Sql2oUsersDao(sql2o);
